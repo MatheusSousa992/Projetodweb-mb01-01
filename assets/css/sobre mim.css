@@ -10,7 +10,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-color: #323e4a;
+  background-color:#205669;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
@@ -29,4 +29,15 @@ font-size: 2em;
     margin-inline-end: 0px;
     font-weight: bold;
     color:#000000;
+}
+p{
+  color:#000000;
+}
+.lead {
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
