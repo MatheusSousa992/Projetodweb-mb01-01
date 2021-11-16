@@ -15,9 +15,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
-svg{
-  color:#fff;
-}
+
 .text-muted {
   --bs-text-opacity: 1;
   color: #fff!important;
@@ -182,4 +180,8 @@ h1 {
   font-weight: 600;
   color: white;
   text-align: center;
+}
+.text-secondary {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-secondary-rgb),var(--bs-text-opacity))!important;
 }

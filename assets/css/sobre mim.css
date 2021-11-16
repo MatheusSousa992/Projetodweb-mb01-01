@@ -15,9 +15,7 @@ body {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: transparent;
 }
-svg{
-  color:#fff;
-}
+
 .text-muted {
   --bs-text-opacity: 1;
   color: #fff!important;
